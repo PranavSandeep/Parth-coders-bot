@@ -8,7 +8,7 @@ from discord.ext.commands import has_permissions
 import YtSong_searcher
 import os
 
-Token = os.getenv("VARIABLE_NAME")
+Token = os.getenv("Token")
 
 
 client = commands.Bot(command_prefix="$")
